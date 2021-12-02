@@ -17,7 +17,7 @@ func Test_sonarSweepP1(t *testing.T) {
 	))
 
 	// solve
-	xs, _ := utils.ReadInts("./input.txt")
+	xs, _ := utils.ReadInts("./d1_input.txt")
 	assert.Equal(t, 1713, sonarSweepP1(xs))
 	assert.Equal(t, 1734, sonarSweepP2(xs))
 }
