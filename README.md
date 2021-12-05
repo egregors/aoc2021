@@ -6,3 +6,4 @@ https://adventofcode.com/2021/
 * [--- Day 2: Dive! ---](/days/d2.go)
 * [--- Day 3: Binary Diagnostic ---](/days/d3.go)
 * [--- Day 4: Giant Squid ---](/days/d4.go)
+* [--- Day 5: Hydrothermal Venture ---](days/d5.go)
