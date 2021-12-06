@@ -5,7 +5,22 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+	"strings"
 )
+
+// ReadIntsLine reads one line of Ints, separated by coma
+func ReadIntsLine(path string) (ints []int, err error) {
+	lines, err := ReadLines(path)
+	if err != nil {
+		return nil, err
+	}
+
+	for _, num := range strings.Split(lines[0], ",") {
+		n, _ := strconv.Atoi(num)
+		ints = append(ints, n)
+	}
+	return ints, nil
+}
 
 // ReadInts reads text line by line and convert each of them into Int
 func ReadInts(path string) (ints []int, err error) {
