@@ -9,3 +9,4 @@ https://adventofcode.com/2021/
 * [--- Day 5: Hydrothermal Venture ---](days/d5.go)
 * [--- Day 6: Lanternfish ---](days/d6.go)
 * [--- Day 7: The Treachery of Whales ---](days/d7.go)
+* [--- Day 8: Seven Segment Search ---](days/d8.go)
