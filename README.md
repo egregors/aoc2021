@@ -10,3 +10,5 @@ https://adventofcode.com/2021/
 * [--- Day 6: Lanternfish ---](days/d6.go)
 * [--- Day 7: The Treachery of Whales ---](days/d7.go)
 * [--- Day 8: Seven Segment Search ---](days/d8.go)
+* [--- Day 9: Smoke Basin ---](days/d9.go)
+* [--- Day 9: Smoke Basin ---](days/d9.go)
