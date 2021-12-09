@@ -8,8 +8,27 @@ import (
 	"strings"
 )
 
-// ReadIntsLine reads one line of Ints, separated by coma
-func ReadIntsLine(path string) (ints []int, err error) {
+// ReadIntsLines reads all lines in file and split each of them by sep. Expect lines with Ints
+func ReadIntsLines(path, sep string) (ints [][]int, err error) {
+	lines, err := ReadLines(path)
+	if err != nil {
+		return nil, err
+	}
+
+	for _, line := range lines {
+		var intLine []int
+		for _, num := range strings.Split(line, sep) {
+			n, _ := strconv.Atoi(num)
+			intLine = append(intLine, n)
+		}
+		ints = append(ints, intLine)
+	}
+
+	return ints, nil
+}
+
+// ReadIntsOneLine reads one line of Ints, separated by coma
+func ReadIntsOneLine(path string) (ints []int, err error) {
 	lines, err := ReadLines(path)
 	if err != nil {
 		return nil, err

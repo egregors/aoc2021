@@ -14,7 +14,7 @@ func Test_theTreacheryOfWhales(t *testing.T) {
 	assert.Equal(t, 168, theTreacheryOfWhalesP2(xs))
 
 	// solve
-	xs, _ = utils.ReadIntsLine("./d7_input.txt")
+	xs, _ = utils.ReadIntsOneLine("./d7_input.txt")
 	assert.Equal(t, 335330, theTreacheryOfWhalesP1(xs))
 	assert.Equal(t, 92439766, theTreacheryOfWhalesP2(xs))
 }

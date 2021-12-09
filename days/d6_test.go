@@ -17,7 +17,7 @@ func Test_lanternfish(t *testing.T) {
 	assert.Equal(t, 26984457539, lanternfishP2([]int{3, 4, 3, 1, 2}, 256))
 
 	// solve
-	xs, _ := utils.ReadIntsLine("./d6_input.txt")
+	xs, _ := utils.ReadIntsOneLine("./d6_input.txt")
 	p2xs := make([]int, len(xs))
 	copy(p2xs, xs)
 
