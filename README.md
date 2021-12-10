@@ -12,3 +12,4 @@ https://adventofcode.com/2021/
 * [--- Day 8: Seven Segment Search ---](days/d8.go)
 * [--- Day 9: Smoke Basin ---](days/d9.go)
 * [--- Day 9: Smoke Basin ---](days/d9.go)
+* [--- Day 10: Syntax Scoring ---](days/d10.go)
