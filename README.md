@@ -14,3 +14,4 @@ https://adventofcode.com/2021/
 * [--- Day 9: Smoke Basin ---](days/d9.go)
 * [--- Day 10: Syntax Scoring ---](days/d10.go)
 * [--- Day 11: Dumbo Octopus ---](days/d11.go)
+* [--- Day 12: Passage Pathing ---](days/d12.go)
