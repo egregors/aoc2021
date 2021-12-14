@@ -16,3 +16,4 @@ https://adventofcode.com/2021/
 * ⭐️⭐️ [--- Day 11: Dumbo Octopus ---](days/d11.go)
 * ⭐️⭐️ [--- Day 12: Passage Pathing ---](days/d12.go)
 * ⭐️⭐️ [--- Day 13: Transparent Origami ---](days/d13.go)
+* ⭐️⭐️ [--- Day 14: Extended Polymerization ---](days/d14.go)
