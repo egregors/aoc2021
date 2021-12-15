@@ -1,3 +1,6 @@
+# github.com/RyanCarrier/dijkstra v1.1.0
+## explicit; go 1.13
+github.com/RyanCarrier/dijkstra
 # github.com/davecgh/go-spew v1.1.0
 ## explicit
 github.com/davecgh/go-spew/spew
